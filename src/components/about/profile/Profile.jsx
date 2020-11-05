@@ -16,7 +16,7 @@ export const Profile = () => {
                     animateIn="flipInY"
                     animateOnce={true}
                 >
-                    <img className="profile-pic" src="/images/profile-pic.png" alt="profile pic" />
+                    <img className="profile-pic" src="./images/profile-pic.png" alt="profile pic" />
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <p className="testimony">
