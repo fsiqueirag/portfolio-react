@@ -1,0 +1,52 @@
+.contact {
+    align-items: center;
+    /* background-color: #0c1418; */
+    background-color: var(--darkest);
+    display: grid;
+    padding: 4rem 9%;
+    width: 100%;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 250px;
+}
+
+.contact-icons span{
+    align-content: center;
+    display: grid;
+}
+
+.contact-icon {
+    background-color: var(--red);
+    border-radius: 15px;
+    color: var(--primary-light);
+    font-size: 2.5rem;
+    height: 60px;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+    width: 60px;
+}
+
+.contact-icon:hover {
+    background-color: var(--secondary-green);
+    color: var(--darkest);
+}
+
+.contact p {
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.contact p span {
+    color: var(--red);
+    font-weight: 500;
+}
+
+.contact-icons a {
+    border-radius: 15px;
+    text-decoration: none;
+}

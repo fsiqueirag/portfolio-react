@@ -1,0 +1,15 @@
+#home {
+    align-items: center;
+    color: #fff;
+    display: grid;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    user-select: none;
+    width: 100%;
+    z-index: 2;
+}
+
+#home p {
+    font-size: 1.3rem;
+}
