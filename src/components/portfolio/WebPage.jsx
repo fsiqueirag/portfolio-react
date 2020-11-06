@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-export const WebPage = ({ src, alt, iconClasses }) => {
+export const WebPage = ({ src, alt, iconClasses, href }) => {
     return (
         <ScrollAnimation
             animateIn="fadeIn"
@@ -14,8 +14,9 @@ export const WebPage = ({ src, alt, iconClasses }) => {
                 })}
             </div>
             <div className="image-container">
-
-                <img src={src} alt={alt} className="website-image" />
+                <a href={href} target="_blank">
+                    <img src={src} alt={alt} className="website-image" />
+                </a>
             </div>
         </ScrollAnimation>
 

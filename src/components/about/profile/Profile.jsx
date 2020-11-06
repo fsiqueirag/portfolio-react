@@ -20,10 +20,11 @@ export const Profile = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <p className="testimony">
-                        <span>" </span>¡Hola! Mi nombre es Fabrizio Siqueira.
-                    Soy un desarrollador web en constante formación. Viva la revolución!
-                    BLA bla blablablab askdasld también voté a macri blablablaby odio a
-                    los nazis del orto jaja re gil<span> "</span>
+                        <span>" </span>¡Hola! Mi nombre es Fabrizio, soy un desarrollador web en constante formación
+                        (orientado al frontend pero actualmente profundizando en conocimientos full stack). Me apasionan
+                        el diseño y la programación, y siempre estoy ansioso de aprender nuevas herramientas para
+                        mejorar mis capacidades. Al final de la página está mi información de contacto para cualquier
+                        pregunta que quieras hacerme. Un saludo!<span> "</span>
                     </p>
                 </ScrollAnimation>
 
@@ -41,7 +42,7 @@ export const Profile = () => {
 
 
             {
-                CVState && <img className="cv" src="/images/cv.jpg" alt="cv" />
+                CVState && <img className="cv" src="./images/cv.png" alt="cv" />
             }
         </Fragment>
     )
