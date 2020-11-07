@@ -30,7 +30,8 @@
     font-weight: 300;
     line-height: 2.3rem;
     margin: 2rem auto;
-    width: 70%;
+    min-width: 185px;
+    width: 80%;
 }
 
 .testimony span {

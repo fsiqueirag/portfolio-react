@@ -20,8 +20,7 @@ export const Profile = () => {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <p className="testimony">
-                        <span>" </span>¡Hola! Mi nombre es Fabrizio, soy un desarrollador web en constante formación
-                        (orientado al frontend pero actualmente profundizando en conocimientos full stack). Me apasionan
+                        <span>" </span>¡Hola! Mi nombre es Fabrizio, soy un desarrollador web en constante formación. Me apasionan
                         el diseño y la programación, y siempre estoy ansioso de aprender nuevas herramientas para
                         mejorar mis capacidades. Al final de la página está mi información de contacto para cualquier
                         pregunta que quieras hacerme. Un saludo!<span> "</span>
