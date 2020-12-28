@@ -23,6 +23,11 @@
   scroll-behavior: smooth;
 }
 
+.spinner-div {
+  margin: 20vh auto;
+  width: 150px;
+}
+
 body::-webkit-scrollbar {
   width: 8px;
 }
