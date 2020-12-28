@@ -1,0 +1,16 @@
+.language-container  {
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icono-idioma {
+    cursor: pointer;
+    transition: 200ms ease-in-out all;
+    width: 70px;
+}
+
+.icono-idioma:hover {
+    opacity: 0.8;
+}

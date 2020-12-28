@@ -31,6 +31,7 @@ export const Profile = () => {
 
 
             <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                <a className="download-cv" href="./CV-Fabrizio-Siqueira.pdf" download>Descargar CV</a>
                 <button
                     className={`cv-button ${CVState ? "hide-cv" : "show-cv"}`}
                     onClick={handleShow}
