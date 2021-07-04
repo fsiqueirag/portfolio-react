@@ -34,7 +34,12 @@ function draw() {
         lines[i].x1 += sin(radians(frameCount + (i * 100))) * 0.3;
         lines[i].x2 -= sin(radians(frameCount + (i * 100))) * 0.3;
 
-        if ((mouseY > lines[i].y1 - 40 && mouseY < lines[i].y1 + 40 && mouseY > 50) || width < 700) {
+        if (width < 700) {
+            stroke(lines[i].r, lines[i].g, lines[i].b, 50);
+            line(lines[i].x1, lines[i].y1, lines[i].x2, lines[i].y2);
+        } else
+
+        if ((mouseY > lines[i].y1 - 40 && mouseY < lines[i].y1 + 40 && mouseY > 50)) {
 
             if (lines[i].a <= 135) {
                 lines[i].a = lines[i].a + 15;
