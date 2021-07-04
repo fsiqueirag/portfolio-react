@@ -26,7 +26,7 @@ export const Home = () => {
         <section id="home">
             <div>
                 <h1>Fabrizio Siqueira</h1>
-                <p>Desarrollador Web Front End</p>
+                <p>Desarrollador Web Full stack</p>
             </div>
         </section>
     )

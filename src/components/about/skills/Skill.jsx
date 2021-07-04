@@ -3,6 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { IconDescription } from './IconDescription';
 
 export const Skill = ({ id, iconClass, skill }) => {
+    
     const [isHovered, setIsHovered] = useState(false);
 
     const handleHover = () => {
@@ -15,7 +16,6 @@ export const Skill = ({ id, iconClass, skill }) => {
 
 
     return (
-
         <div onMouseEnter={handleHover} onMouseLeave={handleLeave}>
             <ScrollAnimation
                 animateIn="fadeInLeft"
